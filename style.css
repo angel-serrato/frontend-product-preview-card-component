@@ -175,6 +175,8 @@ table {
 
 body {
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
 }
 
 .attribution {
