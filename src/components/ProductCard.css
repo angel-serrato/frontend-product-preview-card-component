@@ -1,0 +1,115 @@
+.product-card {
+    margin: 16px;
+    background-color: var(--white);
+    border-radius: 10px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.product-card__image-container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 375px;
+    padding: 24px;
+}
+
+.product-card__image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.product-card__content {
+    margin: 24px;
+}
+
+.product-card__category {
+    text-transform: uppercase;
+    color: var(--grey);
+    letter-spacing: 5px;
+    font-size: 0.833rem;
+}
+
+.product-card__title {
+    margin: 10px 0;
+    font-size: 2.074rem;
+    color: var(--black);
+}
+
+.product-card__description {
+    color: var(--grey);
+    font-size: 0.873rem;
+    line-height: 1.6;
+}
+
+.product-card__price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    gap: 24px;
+}
+
+.product-card__current-price {
+    font-size: 1.728rem;
+    color: var(--green-500);
+}
+
+
+.product-card__original-price {
+    color: var(--grey);
+    font-size: 0.833rem;
+    text-decoration: line-through;
+}
+
+.product-card__button {
+    background-color: var(--green-500);
+    border-radius: 8px;
+    color: var(--white);
+    font-size: 14px;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 576px) {
+    .product-card {
+        background-color: blue;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) {
+    .product-card {
+        background-color: black;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 992px) {
+    .product-card {
+        background-color: lightblue;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1200px) {
+    .product-card {
+        background-color: lightcoral;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    .product-card {
+        background-color: lightgray;
+    }
+}
