@@ -2,15 +2,13 @@
     margin: 16px;
     background-color: var(--white);
     border-radius: 10px;
-    /* display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 .product-card__image-container {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 375px;
-    padding: 24px;
+    width: 100%;
 }
 
 .product-card__image {
@@ -21,7 +19,7 @@
 }
 
 .product-card__content {
-    margin: 24px;
+    padding: 24px;
 }
 
 .product-card__category {
