@@ -15,11 +15,11 @@ This is a solution to the [Product Preview Card Component on Frontend Mentor](ht
 
 ## Overview
 
-A clean, mobile-first recipe page. Features a visually appealing layout with a featured image, recipe title, cooking time, ingredients list, step-by-step instructions, and chef details. Built responsively with Flexbox to ensure an optimal experience across all devices.
+A clean, responsive product preview card. Features a product image, title, description, price, and call to action. Designed with a mobile-first approach and built with CSS Flexbox to ensure optimal viewing on all devices.
 
 ### Screenshot
 
-
+![prccshots](https://github.com/user-attachments/assets/fd1332f4-dd0e-4ac9-9538-abdac4f206a7)
 
 ### Links
 
