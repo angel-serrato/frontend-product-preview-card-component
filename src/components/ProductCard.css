@@ -105,7 +105,27 @@
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 768px) {
-    .product-card {}
+    .product-card {
+        max-width: 550px;
+        margin: 24px auto;
+        flex-direction: row;
+    }
+
+    .product-card__image-container {
+        flex: 1;
+        max-width: 50%;
+    }
+
+    .product-card__image {
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px 0 0 10px;
+    }
+
+    .product-card__content {
+        flex: 1;
+        padding: 32px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */

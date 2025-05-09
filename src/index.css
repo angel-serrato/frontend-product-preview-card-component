@@ -9,6 +9,18 @@
     --white: hsl(0, 0%, 100%);
 }
 
+/* @link https://utopia.fyi/type/calculator?c=375,13,1.2,1440,14,1.25,6,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+:root {
+    --size-0: clamp(0.8125rem, 0.7905rem + 0.0939vw, 0.875rem);
+    --size-1: clamp(0.975rem, 0.9332rem + 0.1784vw, 1.0938rem);
+    --size-2: clamp(1.17rem, 1.1006rem + 0.2962vw, 1.3672rem);
+    --size-3: clamp(1.404rem, 1.2966rem + 0.4582vw, 1.709rem);
+    --size-4: clamp(1.6848rem, 1.5258rem + 0.6782vw, 2.1362rem);
+    --size-5: clamp(2.0218rem, 1.7934rem + 0.9743vw, 2.6703rem);
+    --size-6: clamp(2.4261rem, 2.1051rem + 1.3698vw, 3.3379rem);
+}
+
 .montserrat-500 {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
