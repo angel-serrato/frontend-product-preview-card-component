@@ -1,42 +1,53 @@
-# frontend-product-preview-card-component
+# Frontend Mentor - Product Preview Card Component
 
-# Front-end Style Guide
+This is a solution to the [Product Preview Card Component on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Layout
+## Table of contents
 
-The designs were created to the following widths:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-- Mobile: 375px
-- Desktop: 1440px
+## Overview
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+A clean, mobile-first recipe page. Features a visually appealing layout with a featured image, recipe title, cooking time, ingredients list, step-by-step instructions, and chef details. Built responsively with Flexbox to ensure an optimal experience across all devices.
 
-## Colors
+### Screenshot
 
-### Primary
 
-- Green 500: hsl(158, 36%, 37%)
-- Green 700: hsl(158, 42%, 18%)
 
-### Neutral
+### Links
 
-- Black: hsl(212, 21%, 14%)
-- Grey: hsl(228, 12%, 48%)
-- Cream: hsl(30, 38%, 92%)
-- White: hsl(0, 0%, 100%)
+- Live Site URL: [Demo](https://frontend-product-preview-card-component.vercel.app/)
 
-## Typography
+## My process
 
-### Body Copy
+### Built with
 
-- Font size (paragraph): 14px
+- React
+- Semantic HTML5 markup
+- CSS custom properties
+- Mobile-first workflow
+- Google Fonts
 
-### Font
+### Useful resources
 
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
+- [BEM Cheat Sheet](https://bem-cheat-sheet.9elements.com/) - A handy guide for naming CSS classes using the BEM (Block Element Modifier) methodology. It provides naming suggestions for common web components like cards, buttons, and forms, helping you maintain organized and scalable code.
+- [Squoosh.app](https://squoosh.app/) - A free, browser-based image compression tool developed by GoogleChromeLabs. Squoosh allows you to compress and compare images with different codecs directly in your browser, ensuring your images are optimized without compromising quality.
+- [Shots.so](https://shots.so/) - An online tool that enables you to create beautiful mockups quickly. Simply drag and drop your screenshots or designs, choose from various devices and backgrounds, and customize the appearance to suit your needs.
+- [Normalize.css](https://necolas.github.io/normalize.css/) A modern, HTML5-ready alternative to CSS resets. It aims to make browsers render all elements more consistently and in line with modern standards. Unlike CSS resets, Normalize.css preserves useful default styles, establishes base styles for common elements, corrects browser bugs, and enhances accessibility. It provides a consistent baseline for styling HTML elements across different devices and browsers.
 
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700
+## Author
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+- Website - [Serrato.dev](https://www.serrato.dev)
+- LinkedIn - [@angel-serrato](https://www.linkedin.com/in/angel-serrato/)
+- GitHub - [@angel-serrato](https://github.com/angel-serrato)
+
+## Acknowledgments
+
+Challenge by [Frontend Mentor](https://www.frontendmentor.io/). Thanks for the awesome practice projects!
